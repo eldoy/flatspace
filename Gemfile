@@ -8,6 +8,7 @@ gem 'utf8-cleaner'
 gem 'puma'
 gem 'erubis'
 gem 'liquid'
+gem 'flatspace', :git => 'https://github.com/fugroup/flatspace', :branch => 'master'
 
 group :development do
   gem 'futest'
