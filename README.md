@@ -8,7 +8,7 @@ gem install flatspace
 or add to your Gemfile.
 
 ### Usage
-```
+```ruby
 # Include as helper in your Sinatra app
 helpers Flatspace::Helpers::Request
 
