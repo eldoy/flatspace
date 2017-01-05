@@ -1,3 +1,5 @@
+require 'sinatra'
+
 module Flatspace
 
   # # # # # #
@@ -6,6 +8,9 @@ module Flatspace
   # @author:   Vidar <vidar@fugroup.net>, Fugroup Ltd.
   # @license:  MIT, contributions are welcome.
   # # # # # #
+
+  class << self; attr_accessor :mode, :debug; end
+  @mode = ENV['RACK_ENV'] || 'development'
 
 end
 
